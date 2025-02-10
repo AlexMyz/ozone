@@ -207,54 +207,6 @@
       "sale": true,
       "img": "https://cdn1.ozone.ru/multimedia/c400/1023547851.jpg",
       "category": "Игры и софт"
-    },
-    {
-      "id": "238d",
-      "title": "Ведьмак",
-      "price": 1794,
-      "sale": true,
-      "img": "https://cdn1.ozone.ru/multimedia/c400/1023547851.jpg",
-      "category": "Игры и софт"
-    },
-    {
-      "id": "8bcd",
-      "title": "Ведьмак",
-      "price": 1794,
-      "sale": true,
-      "img": "https://cdn1.ozone.ru/multimedia/c400/1023547851.jpg",
-      "category": "Игры и софт"
-    },
-    {
-      "id": "8cca",
-      "title": "Ведьмак",
-      "price": 1794,
-      "sale": true,
-      "img": "https://cdn1.ozone.ru/multimedia/c400/1023547851.jpg",
-      "category": "Игры и софт"
-    },
-    {
-      "id": "6239",
-      "title": "Ведьмак",
-      "price": 1794,
-      "sale": true,
-      "img": "https://cdn1.ozone.ru/multimedia/c400/1023547851.jpg",
-      "category": "Игры и софт"
-    },
-    {
-      "id": "0a36",
-      "title": "Ведьмак",
-      "price": 1794,
-      "sale": true,
-      "img": "https://cdn1.ozone.ru/multimedia/c400/1023547851.jpg",
-      "category": "Игры и софт"
-    },
-    {
-      "id": "c4b1",
-      "title": "Ведьмак",
-      "price": 1794,
-      "sale": true,
-      "img": "https://cdn1.ozone.ru/multimedia/c400/1023547851.jpg",
-      "category": "Игры и софт"
     }
   ]
 }
