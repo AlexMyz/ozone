@@ -26,7 +26,7 @@ const renderCart = (goods) => {
             <div class="card-body justify-content-between">
               <div class="card-price">${item.price}</div>
               <h5 class="card-title">${item.title}</h5>
-              <button class="btn btn-primary">В корзину</button>
+              <button class="btn btn-primary">удалить</button>
             </div>
           </div>
       `

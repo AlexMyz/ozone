@@ -6,6 +6,8 @@ const cart = () => {
   const cartCloseBtn = cartModal.querySelector(".cart-close")
   const cartTotal = cartModal.querySelector(".cart-total > span")
   const goodsWrapper = document.querySelector(".goods")
+  const counter = document.querySelector(".counter")
+  
 
   const openCart = () => {
     const cart = localStorage.getItem("cart") ? JSON.parse(localStorage.getItem('cart')) : []
@@ -39,6 +41,24 @@ const cart = () => {
       
       localStorage.setItem("cart", JSON.stringify(cart))
       
+      counter.textContent = cart.length
+    }
+  })
+
+  cartModal.addEventListener('click', (e) => {
+    if (e.target.classList.contains("btn-primary")) {
+      const card = e.target.closest(".card")
+      const key = card.dataset.key
+      const cart = JSON.parse(localStorage.getItem("cart"))
+      const goodItem = cart.findIndex(item => item.id === key)      
+
+      cart.splice(goodItem, 1)
+      
+      localStorage.setItem("cart", JSON.stringify(cart)) 
+
+      renderCart(cart)
+
+      counter.textContent = cart.length
     }
   })
 }
